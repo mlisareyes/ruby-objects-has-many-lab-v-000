@@ -12,8 +12,4 @@ class Post
     else
       self.author.name
   end
-
-  def self.all
-    @@all
-  end
 end
