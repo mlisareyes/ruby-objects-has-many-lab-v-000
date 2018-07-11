@@ -9,4 +9,6 @@ class Post
   def author_name
     self.author.name if self.author
   end
+
+  def self.all? { ||  }
 end
