@@ -10,5 +10,7 @@ class Song
     self.artist.name if self.artist
   end
 
-  def self.all? { ||  }
+  def self.all
+    @@all
+  end
 end
