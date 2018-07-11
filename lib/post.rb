@@ -10,5 +10,6 @@ class Post
     self.author.name if self.author
   end
 
-  def self.all? { ||  }
+  def self.all
+    @@all = all
 end
